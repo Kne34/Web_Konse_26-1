@@ -1,0 +1,514 @@
+{
+    "25-2": [
+        {
+            "name": "Gavin Justine",
+            "img": "/GJ25-2.png",
+            "initial": "GJ25-2",
+            "position": "Junior Laboratory Assistant"
+        },
+        {
+            "name": "Hans Kartawinata",
+            "img": "/HK25-2.png",
+            "initial": "HK25-2",
+            "position": "Junior Laboratory Assistant"
+        },
+        {
+            "name": "Jordan Grant",
+            "img": "/OG25-2.png",
+            "initial": "OG25-1",
+            "position": "Junior Laboratory Assistant"
+        },
+        {
+            "name": "Ryan Hazzel Chandra",
+            "img": "/RZ25-2.png",
+            "initial": "RZ25-2",
+            "position": "Junior Laboratory Assistant"
+        }
+    ],
+    "25-1": [
+        {
+            "name": "Nathanael Moses",
+            "img": "/ES25-1.png",
+            "initial": "ES25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Evorius Valens Taruna",
+            "img": "/EV25-1.png",
+            "initial": "EV25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Rafael Febrian",
+            "img": "/FB25-1.png",
+            "initial": "FB25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Daniel Regis Febrianto",
+            "img": "/GS25-1.png",
+            "initial": "GS25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Ivy Nikita Malvin",
+            "img": "/IV25-1.png",
+            "initial": "IV25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Sisilia Annabel Aileen",
+            "img": "/IL25-1.png",
+            "initial": "IL25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Kenneth Maximillian Pranata",
+            "img": "/MX25-1.png",
+            "initial": "MX25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Jonathan Christian Wongso",
+            "img": "/NG25-1.png",
+            "initial": "NG25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Sean Spencer",
+            "img": "/NP25-1.png",
+            "initial": "NP25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Alin Lorensia",
+            "img": "/OI25-1.png",
+            "initial": "OI25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Marcell Sutiono",
+            "img": "/RL25-1.png",
+            "initial": "RL25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Weneville",
+            "img": "/WE25-1.png",
+            "initial": "WE25-1",
+            "position": "Laboratory Assistant"
+        }
+    ],
+    "24-2": [
+        {
+            "name": "Aldric Tan",
+            "img": "/AC24-2.png",
+            "initial": "AC24-2",
+            "position": ""
+        },
+        {
+            "name": "Helena Aurelia Sanjaya",
+            "img": "/AS24-2.png",
+            "initial": "AS24-2",
+            "position": "Operations Management Officer"
+        },
+        {
+            "name": "Brenda Calista Haryanto",
+            "img": "/BD24-2.png",
+            "initial": "BD24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Bertrand Geraldo Tjahy adi",
+            "img": "/BT24-2.png",
+            "initial": "BT24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Celine Tan",
+            "img": "/CT24-2.png",
+            "initial": "CT24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Fortino",
+            "img": "/FO24-2.png",
+            "initial": "FO24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Reinhart Gian Widjaja",
+            "img": "/GN24-2.png",
+            "initial": "GN24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Ni Komang Gayatri Kusuma Wardhani",
+            "img": "/GY24-2.png",
+            "initial": "GY24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Steven Hardyanto",
+            "img": "/HO24-2.png",
+            "initial": "HO24-2",
+            "position": ""
+        },
+        {
+            "name": "Kevin Nathanael Hendarto",
+            "img": "/KH24-2.png",
+            "initial": "KH24-2",
+            "position": ""
+        },
+        {
+            "name": "Tommy Awada",
+            "img": "/MM24-2.png",
+            "initial": "MM24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Marco Linardi",
+            "img": "/MR24-2.png",
+            "initial": "MR24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Marvel Collin",
+            "img": "/MV24-2.png",
+            "initial": "MV24-2",
+            "position": "Research and Development Staff"
+        },
+        {
+            "name": "Agnes Faustine Ilona Soejanto",
+            "img": "/NS24-2.png",
+            "initial": "NS24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Octavius Sandriago",
+            "img": "/OV24-2.png",
+            "initial": "OV24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Paul Tsai Adinata",
+            "img": "/PL24-2.png",
+            "initial": "PL24-2",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Ryuu Stanley Tistogondo",
+            "img": "/RU24-2.png",
+            "initial": "RU24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Steven Taniardi",
+            "img": "/TI24-2.png",
+            "initial": "TI24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Vincentius Devin Agung Oktara",
+            "img": "/VD24-2.png",
+            "initial": "VD24-2",
+            "position": ""
+        },
+        {
+            "name": "Veron Fujimori",
+            "img": "/VM24-2.png",
+            "initial": "VM24-2",
+            "position": ""
+        },
+        {
+            "name": "William Sebastian Liman",
+            "img": "/WS24-2.png",
+            "initial": "WS24-2",
+            "position": ""
+        },
+        {
+            "name": "Wilsen Wiratan",
+            "img": "/WW24-2.png",
+            "initial": "WW24-2",
+            "position": ""
+        },
+        {
+            "name": "Yudhistira",
+            "img": "/YD24-2.png",
+            "initial": "YD24-2",
+            "position": "Laboratory Assistant"
+        }
+    ],
+    "24-1": [
+        {
+            "name": "Christian Dexter Fernando",
+            "img": "/CF24-1.png",
+            "initial": "CF24-1",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Jose Christian Wijaya",
+            "img": "/CW24-1.png",
+            "initial": "CW24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Gilbert Jefferson",
+            "img": "/GT24-1.png",
+            "initial": "GT24-1",
+            "position": ""
+        },
+        {
+            "name": "Kenneth Andrew",
+            "img": "/KA24-1.png",
+            "initial": "KA24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Kevin Pramudya Mahardika",
+            "img": "/KK24-1.png",
+            "initial": "KK24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Muhammad Aryo Baskoro",
+            "img": "/KR24-1.png",
+            "initial": "KR24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Nathanael Sjaklif",
+            "img": "/LF24-1.png",
+            "initial": "LF24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Luciano Mathew Hinarta",
+            "img": "/LO24-1.png",
+            "initial": "LO24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Marvella Viana Santoso",
+            "img": "/MS24-1.png",
+            "initial": "MS24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Philip Purnama",
+            "img": "/PP24-1.png",
+            "initial": "PP24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Michael Stefano Irawadi",
+            "img": "/SF24-1.png",
+            "initial": "SF24-1",
+            "position": ""
+        },
+        {
+            "name": "Steven Liementha",
+            "img": "/SV24-1.png",
+            "initial": "SV24-1",
+            "position": "Research and Development Staff"
+        },
+        {
+            "name": "Vincent",
+            "img": "/VL24-1.png",
+            "initial": "VL24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Vincentius Jonathan Tanujaya",
+            "img": "/VU24-1.png",
+            "initial": "VU24-1",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Xaviero Yamin Loganta",
+            "img": "/XY24-1.png",
+            "initial": "XY24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Yenita Kimberly",
+            "img": "/YK24-1.png",
+            "initial": "YK24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Inner Journey Tazkie Ciputra Tangguh",
+            "img": "/ZK24-1.png",
+            "initial": "ZK24-1",
+            "position": "Database Administrator Staff"
+        }
+    ],
+    "23-2": [
+        {
+            "name": "Fredrick Yonathan Ehowu Medrofa",
+            "img": "/FD23-2.png",
+            "initial": "FD23-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Adrian Yu",
+            "img": "/AY23-2.png",
+            "initial": "AY23-2",
+            "position": "Database Administrator Staff"
+        },
+        {
+            "name": "Axel Kurniawan",
+            "img": "/XK23-2.png",
+            "initial": "XK23-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Jonathan Maverick",
+            "img": "/VK23-2.png",
+            "initial": "VK23-2",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "William Christian",
+            "img": "/LM23-2.png",
+            "initial": "LM23-2",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Jason Daniel Tanuarta S. Kom.",
+            "img": "/DT23-2.png",
+            "initial": "DT23-2",
+            "position": "Research and Development Staff"
+        },
+        {
+            "name" : "Jackson",
+            "img" : "/JZ23-2.png",
+            "initial" : "JZ23-2",
+            "position" : "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Marvino Fransisco",
+            "img": "/MF23-2.png",
+            "initial": "MF23-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name" : "Daniel Adamlu",
+            "img" : "/NL23-2.png",
+            "initial" : "NL23-2",
+            "position" : "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name" : "Michael Iskandardinata",
+            "img" : "/MH23-2.png",
+            "initial" : "MH23-2",
+            "position" : "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Vincent Ramaputra",
+            "img": "/VR23-2.png",
+            "initial": "VR23-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Hendra Hendarto",
+            "img": "/HH23-2.png",
+            "initial": "HH23-2",
+            "position": "Database Administration Staff"
+        }
+    ],
+    "23-1": [
+        {
+            "name": "Rico Aurelio Gunadi Sastra",
+            "img": "/IO23-1.png",
+            "initial": "IO23-1",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Terrance Dave Phoebus",
+            "img": "/PB23-1.png",
+            "initial": "PB23-1",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Nicholas Irvin Suhendi",
+            "img": "/IR23-1.png",
+            "initial": "IR23-1",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Felix Gunawan Hendy",
+            "img": "/XD23-1.png",
+            "initial": "XD23-1",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Jovita Waisakhi ",
+            "img": "/VI23-1.png",
+            "initial": "VI23-1",
+            "position": "Subject Coordinator Staff"
+        }
+    ],
+    "22-2": [
+        {
+            "name": "Hans Indrawan Sucipto, S. Kom.",
+            "img": "/HI22-2.png",
+            "initial": "HI22-2",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Valentino Setiawan, S.Kom.",
+            "img": "/VS22-2.png",
+            "initial": "VS22-2",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Marchel Hermanliansyah, S. Kom.",
+            "img": "/MC22-2.png",
+            "initial": "MC22-2",
+            "position": "Network Administrator and Technical Event Officer"
+        },
+        {
+            "name": "Jason Ananda Cindra, S. Kom.",
+            "img": "/JC22-2.png",
+            "initial": "JC22-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Jevon Danaristo",
+            "img": "/JO22-2.png",
+            "initial": "JO22-2",
+            "position": "?"
+        }
+    ],
+    "22-1": [
+        {
+            "name": "Jeremy Loa, S. Kom.",
+            "img": "/JM22-1.png",
+            "initial": "JM22-1",
+            "position": "Network Administrator and Technical Support Officer"
+        },
+        {
+            "name": "Renaldi Addison, S. Kom., M. Kom.",
+            "img": "/RE22-1.png",
+            "initial": "RE22-1",
+            "position": "Subject Coordinator Staff"
+        }
+    ],
+    "20-1": [
+        {
+            "name": "Jonathan Adrian, S. Kom., S. E.",
+            "img": "/JH20-1.png",
+            "initial": "JH20-1",
+            "position": "Operations Management Officer"
+        }
+    ],
+    "19-2": [
+        {
+            "name": "Louis Choules S.Kom.",
+            "img": "/LH19-2.png",
+            "initial": "LH19-1",
+            "position": "Lecturer Specialist"
+        }
+    ]
+}

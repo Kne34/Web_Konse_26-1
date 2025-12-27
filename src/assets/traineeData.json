@@ -1,0 +1,142 @@
+[
+    {
+        "tnumber": "T005",
+        "name": "Maximillian Delavega Adiwinata Frenat",
+        "jurusan": "Cyber Security",
+        "img": "/T005.png",
+        "angkatan": "B28"
+    },
+    {
+        "tnumber": "T010",
+        "name": "Marcelino Rosselo Sungkono",
+        "jurusan": "Computer Science",
+        "img": "/T010.png",
+        "angkatan": "B28"
+    },
+    {
+        "tnumber": "T022",
+        "name": "Clevant Joe Hizkia",
+        "jurusan": "Computer Science and Mathematics",
+        "img": "/T022.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T030",
+        "name": "Wu Jeremmy Iskandar",
+        "jurusan": "Data Science",
+        "img": "/T030.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T042",
+        "name": "Jason Kenneth Lay",
+        "jurusan": "Artificial Intelligence",
+        "img": "/T042.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T044",
+        "name": "Wilson Arlando",
+        "jurusan": "Computer Science and Mathematics",
+        "img": "/T044.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T054",
+        "name": "Muhammad Jibran Aulia Ramadhan",
+        "jurusan": "Data Science",
+        "img": "/T054.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T078",
+        "name": "Elbert Joan",
+        "jurusan": "Artificial Intelligence",
+        "img": "/T078.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T083",
+        "name": "Felisha Yang",
+        "jurusan": "Data Science",
+        "img": "/T083.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T088",
+        "name": "Nicholas Anthony Hernando Gan",
+        "jurusan": "Computer Science",
+        "img": "/T088.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T101",
+        "name": "Michael Arthara Immanuel",
+        "jurusan": "Artificial Intelligence",
+        "img": "/T101.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T110",
+        "name": "Alfred Abner",
+        "jurusan": "Computer Science",
+        "img": "/T110.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T113",
+        "name": "Bryan O'neill Alim",
+        "jurusan": "Computer Science",
+        "img": "/T113.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T126",
+        "name": "Evan Satyadharma Gunardi",
+        "jurusan": "Artificial Intelligence",
+        "img": "/T126.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T133",
+        "name": "Keane Wilson Prakoso",
+        "jurusan": "Computer Science",
+        "img": "/T133.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T134",
+        "name": "Archie Ricardo",
+        "jurusan": "Computer Science and Mathematics",
+        "img": "/T134.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T141",
+        "name": "Aaron Christian",
+        "jurusan": "Artificial Intelligence",
+        "img": "/T141.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T153",
+        "name": "I Wayan Sudana Dyaksa",
+        "jurusan": "Computer Science",
+        "img": "/T153.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T155",
+        "name": "Moses Joshua Lesmana",
+        "jurusan": "Computer Science (MT)",
+        "img": "/T155.png",
+        "angkatan": "B29"
+    },
+    {
+        "tnumber": "T168",
+        "name": "Nazkia Najidah Ramdani",
+        "jurusan": "Data Science",
+        "img": "/T168.png",
+        "angkatan": "B29"
+    }
+]

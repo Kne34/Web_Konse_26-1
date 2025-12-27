@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia ;
+    font-size: large;
+    text-align: center;
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height:600px;
+    box-sizing: border-box;
+    padding: 0.4rem 1rem;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 0px rgb(135, 135, 135),  0 2px 8px rgba(0, 0, 0, 1);
+    border: 2px solid rgb(218, 208, 208);
+    border-radius: 50px; 
+}
+.main-container * {
+    margin: 2%;
+}
+
+.main-container select, .main-container input {
+    height: 40px;
+    width: 400px;
+    color: rgb(255, 255, 255) ;
+    background-color: rgb(55, 54, 54);
+    text-align: center;
+    z-index: 1000;
+    border-radius: 20px;
+}
+
+.wrong{
+    border: 5px solid red;
+}
+
+/* .correct{
+    border:5px solid greenyellow;
+    color :greenyellow;
+} */
+.main-container img {
+    width: 150px;
+    height: 150px;
+}
+
+.submit-btn, .btn{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(107, 80, 13) ;
+}
+
+.submit-btn:hover, .btn {
+    background-color: rgb(183, 139, 26) ;
+    border-color: rgb(11, 180, 192);
+}
+
+.submit-btn:active {
+    background-color: palevioletred;
+    border-color: palevioletred;
+    transform: scale(0.98);
+}
+
+.SALAH{
+    width:200px;
+}
+
+.position {
+    height: 40px;
+    border-radius: 10px;
+}

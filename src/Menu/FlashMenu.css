@@ -1,0 +1,29 @@
+.flashmenu-container {
+    display: flex;
+    flex-direction: column ;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.nextprev-btn{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color:rgb(107, 80, 13);
+}
+
+.buttonnextprev{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+.nextprev-btn:hover{
+    background-color: darkgoldenrod;
+}
+
+.flashmenu-container .h2 {
+    color: white;
+    opacity: 1;
+}

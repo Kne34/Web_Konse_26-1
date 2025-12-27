@@ -1,0 +1,462 @@
+{
+    "25-2": [
+        {
+            "name": "Gavin Justine",
+            "img": "/GJ25-2.png",
+            "initial": "GJ25-2",
+            "position": "Junior Laboratory Assistant"
+        },
+        {
+            "name": "Hans Kartawinata",
+            "img": "/HK25-2.png",
+            "initial": "HK25-2",
+            "position": "Junior Laboratory Assistant"
+        },
+        {
+            "name": "Jordan Grant",
+            "img": "/OG25-2.png",
+            "initial": "OG25-1",
+            "position": "Junior Laboratory Assistant"
+        },
+        {
+            "name": "Ryan Hazzel Chandra",
+            "img": "/RZ25-2.png",
+            "initial": "RZ25-2",
+            "position": "Junior Laboratory Assistant"
+        }
+        ],    
+    "25-1": [
+        {
+            "name": "Nathanael Moses",
+            "img": "/ES25-1.png",
+            "initial": "ES25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Evorius Valens Taruna",
+            "img": "/EV25-1.png",
+            "initial": "EV25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Rafael Febrian",
+            "img": "/FB25-1.png",
+            "initial": "FB25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Daniel Regis Febrianto",
+            "img": "/GS25-1.png",
+            "initial": "GS25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Ivy Nikita Malvin",
+            "img": "/IV25-1.png",
+            "initial": "IV25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Sisilia Annabel Aileen",
+            "img": "/IL25-1.png",
+            "initial": "IL25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Kenneth Maximillian Pranata",
+            "img": "/MX25-1.png",
+            "initial": "MX25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Jonathan Christian Wongso",
+            "img": "/NG25-1.png",
+            "initial": "NG25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Sean Spencer",
+            "img": "/NP25-1.png",
+            "initial": "NP25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Alin Lorensia",
+            "img": "/OI25-1.png",
+            "initial": "OI25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Marcell Sutiono",
+            "img": "/RL25-1.png",
+            "initial": "RL25-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Weneville",
+            "img": "/WE25-1.png",
+            "initial": "WE25-1",
+            "position": "Laboratory Assistant"
+        }
+    ],
+    "24-1": [
+        {
+            "name": "Christian Dexter Fernando",
+            "img": "/CF24-1.png",
+            "initial": "CF24-1",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Clarence Mylordick",
+            "img": "/CM24-1.png",
+            "initial": "CM24-1",
+            "position": "Operations Management Officer"
+        },
+        {
+            "name": "Jose Christian Wijaya",
+            "img": "/CW24-1.png",
+            "initial": "CW24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Darwin Johan",
+            "img": "/DJ24-1.png",
+            "initial": "DJ24-1",
+            "position": "Operations Management Officer"
+        },
+        {
+            "name": "Gilbert Jefferson",
+            "img": "/GT24-1.png",
+            "initial": "GT24-1",
+            "position": ""
+        },
+        {
+            "name": "Kenneth Andrew",
+            "img": "/KA24-1.png",
+            "initial": "KA24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Kevin Pramudya Mahardika",
+            "img": "/KK24-1.png",
+            "initial": "KK24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Muhammad Aryo Baskoro",
+            "img": "/KR24-1.png",
+            "initial": "KR24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Nathanael Sjaklif",
+            "img": "/LF24-1.png",
+            "initial": "LF24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Luciano Mathew Hinarta",
+            "img": "/LO24-1.png",
+            "initial": "LO24-1",
+            "position": ""
+        },
+        {
+            "name": "Marvella Viana Santoso",
+            "img": "/MS24-1.png",
+            "initial": "MS24-1",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Catherine Alyssa Rapito",
+            "img": "/PI24-1.png",
+            "initial": "PI24-1",
+            "position": ""
+        },
+        {
+            "name": "Philip Purnama",
+            "img": "/PP24-1.png",
+            "initial": "PP24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Michael Stefano Irawadi",
+            "img": "/SF24-1.png",
+            "initial": "SF24-1",
+            "position": ""
+        },
+        {
+            "name": "Steven Liementha",
+            "img": "/SV24-1.png",
+            "initial": "SV24-1",
+            "position": "Research and Development Staff"
+        },
+        {
+            "name": "Viernicia Surijanto",
+            "img": "/VJ24-1.png",
+            "initial": "VJ24-1",
+            "position": ""
+        },
+        {
+            "name": "Vincent",
+            "img": "/VL24-1.png",
+            "initial": "VL24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Vincentius Jonathan Tanujaya",
+            "img": "/VU24-1.png",
+            "initial": "VU24-1",
+            "position": "Network Administrator and Technical Support Staff"
+        },
+        {
+            "name": "Xaviero Yamin Loganta",
+            "img": "/XY24-1.png",
+            "initial": "XY24-1",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Yenita Kimberly",
+            "img": "/YK24-1.png",
+            "initial": "YK24-1",
+            "position": ""
+        },
+        {
+            "name": "Inner Journey Tazkie Ciputra Tangguh",
+            "img": "/ZK24-1.png",
+            "initial": "ZK24-1",
+            "position": ""
+        }
+    ],
+    "24-2": [
+        {
+            "name": "Aldric Tan",
+            "img": "/AC24-2.png",
+            "initial": "AC24-2",
+            "position": ""
+        },
+        {
+            "name": "Helena Aurelia Sanjaya",
+            "img": "/AS24-2.png",
+            "initial": "AS24-2",
+            "position": "Operations Management Officer"
+        },
+        {
+            "name": "Brenda Calista Haryanto",
+            "img": "/BD24-2.png",
+            "initial": "BD24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Bertrand Geraldo Tjahyadi",
+            "img": "/BT24-2.png",
+            "initial": "BT24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Celine Tan",
+            "img": "/CT24-2.png",
+            "initial": "CT24-2",
+            "position": ""
+        },
+        {
+            "name": "Fortino",
+            "img": "/FO24-2.png",
+            "initial": "FO24-2",
+            "position": ""
+        },
+        {
+            "name": "Reinhart Gian",
+            "img": "/GN24-2.png",
+            "initial": "GN24-2",
+            "position": ""
+        },
+        {
+            "name": "Ni Komang Gayatri Kusuma Wardhani",
+            "img": "/GY24-2.png",
+            "initial": "GY24-2",
+            "position": ""
+        },
+        {
+            "name": "Steven Hardyanto",
+            "img": "/HO24-2.png",
+            "initial": "HO24-2",
+            "position": ""
+        },
+        {
+            "name": "Kevin Nathanael Hendarto",
+            "img": "/KH24-2.png",
+            "initial": "KH24-2",
+            "position": ""
+        },
+        {
+            "name": "Tommy Awada",
+            "img": "/MM24-2.png",
+            "initial": "MM24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Marco Linardi",
+            "img": "/MR24-2.png",
+            "initial": "MR24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Marvel Collin",
+            "img": "/MV24-2.png",
+            "initial": "MV24-2",
+            "position": "Research and Development Staff"
+        },
+        {
+            "name": "Agnes Faustine Ilona Soejanto",
+            "img": "/NS24-2.png",
+            "initial": "NS24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Octavius Sandriago",
+            "img": "/OV24-2.png",
+            "initial": "OV24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Paul Tsai Adinata",
+            "img": "/PL24-2.png",
+            "initial": "PL24-2",
+            "position": "Subject Coordinator Staff"
+        },
+        {
+            "name": "Ryuu Stanley Tistogondo",
+            "img": "/RU24-2.png",
+            "initial": "RU24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Steven Taniardi",
+            "img": "/TI24-2.png",
+            "initial": "TI24-2",
+            "position": "Laboratory Assistant"
+        },
+        {
+            "name": "Vincentius Devin Agung Oktara",
+            "img": "/VD24-2.png",
+            "initial": "VD24-2",
+            "position": ""
+        },
+        {
+            "name": "Veron Fujimori",
+            "img": "/VM24-2.png",
+            "initial": "VM24-2",
+            "position": ""
+        },
+        {
+            "name": "William Sebastian Liman",
+            "img": "/WS24-2.png",
+            "initial": "WS24-2",
+            "position": ""
+        },
+        {
+            "name": "Wilsen Wiratan",
+            "img": "/WW24-2.png",
+            "initial": "WW24-2",
+            "position": ""
+        },
+        {
+            "name": "Yudhistira",
+            "img": "/YD24-2.png",
+            "initial": "YD24-2",
+            "position": "Laboratory Assistant"
+        }
+    ],
+    "23-2" : [
+        {
+            "name" : "Adriel Ichwan",
+            "img" : "/AI23-2.png",
+            "initial" : "AI23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Adrian Yu",
+            "img" : "/AY23-2.png",
+            "initial" : "AY23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Abel Kristanto",
+            "img" : "/BL23--2.png",
+            "initial" : "",
+            "position" : ""
+        },
+        {
+            "name" : "Daniel Kurniawan",
+            "img" : "/DE23-2.png",
+            "initial" : "DE23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Jason Daniel Tanuarta",
+            "img" : "/DT23-2.png",
+            "initial" : "DT23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Frederick Yonathan Ehowu Mendrofa",
+            "img" : "/FD23-2.png",
+            "initial" : "FD23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Hendra Hendarto",
+            "img" : "/HH23-2.png",
+            "initial" : "HH23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Cindy Clarissa Tanoto",
+            "img" : "/IS23-2.png",
+            "initial" : "IS23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Jackson",
+            "img" : "/JZ23-2.png",
+            "initial" : "JZ23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Michael Iskandardinata",
+            "img" : "/MH23-2.png",
+            "initial" : "MH23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Daniel Adamlu",
+            "img" : "/NL23-2.png",
+            "initial" : "NL23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Ricky Wijaya",
+            "img" : "/RJ23-2.png",
+            "initial" : "RJ23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Jonathan Maverick",
+            "img" : "/VK23-2.png",
+            "initial" : "VK23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Vincent Ramaputra",
+            "img" : "/VR23-2.png",
+            "initial" : "VR23-2",
+            "position" : ""
+        },
+        {
+            "name" : "Axel Kurniawan",
+            "img" : "/XK23-2.png",
+            "initial" : "XK23-2",
+            "position" : ""
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Georgia ;
+        font-size: large;
+        text-align: center;
+    }
+
+ 
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height:600px;
+        box-sizing: border-box;
+        padding: 0.4rem 1rem;
+        background-color: #000000;
+        box-shadow: 4px 4px 0px rgb(135, 135, 135),  0 2px 8px rgba(0, 0, 0, 1);
+        border: 2px solid gray;
+        border-radius: 50px;
+        /* z-index: 10; */
+    }
+    .main-container * {
+        margin: 2%;
+    }
+
+    .main-container input {
+        height: 40px;
+        width: 400px;
+        color: rgb(255, 255, 255) ;
+        background-color: rgb(82, 82, 82);
+        text-align: center;
+        z-index: 1000;
+        border-radius: 20px;
+    }
+
+    .wrong{
+        border: 5px solid red;
+    }
+
+    /* .correct{
+        border:5px solid greenyellow;
+        color :greenyellow;
+    } */
+    .main-container img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .submit-btn{
+        width: 200px;
+        height: 50px;
+        background-color:rgb(107, 80, 13) ;
+    }
+    
+    .submit-btn:hover {
+        background-color: rgb(183, 139, 26) ;
+        border-color: palevioletred;
+    }
+
+    .submit-btn:active {
+        background-color: palevioletred;
+        border-color: palevioletred;
+        transform: scale(0.98);
+    }
+/* 
+    .shadow{
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        z-index:1;
+    } */
+
+    .SALAH{
+        width:200px;
+    }
+    
+    /* .dropbox{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    } */
+
+    .mix {
+        display: flex;
+        align-items: row;
+        width: 400px;
+        box-sizing: border-box;
+    }   
+    .mix * {
+        margin: 0;
+    }
+    .mix select {
+        margin-right: 2%;
+    }
+
+    .angkatan {
+        width: 100px;
+        border-radius: 10px;
+    }
+
+    .tnumber {
+        max-width: 100px;
+        height: 100px;
+    }
+
+    .jurusan {
+        height: 40px;
+        border-radius: 10px;
+    }
