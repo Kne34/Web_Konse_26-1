@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./flashcardtrainee.css"
 
 interface TraineeData {
@@ -13,19 +13,25 @@ interface TraineeCardProps {
   data: TraineeData;
   onSubmit :(correct: boolean) => void;
   onAnswerShown: ()=>void;
+  isAlreadyFinished: boolean;
 }
 
-const TraineeCard = ({data, onSubmit, onAnswerShown}: TraineeCardProps) => {
+const TraineeCard = ({data, onSubmit, onAnswerShown, isAlreadyFinished}: TraineeCardProps) => {
   const [name, setName] = useState("");
   const [jurusan, setjurusan] = useState("Computer Science");
   const [angkatan, setangkatan] = useState("B29");
   const [traineenum, settraineenum] = useState("");
   const [popup, setPopup] = useState(false);  // utk tampil "WRONG ANSWER"
 
-  
+  useEffect(() => {
+    if (isAlreadyFinished) {
+      setName(data.name);
+      setjurusan(data.jurusan);
+      setangkatan(data.angkatan);
+      settraineenum(data.tnumber);
+    }
+  }, [isAlreadyFinished, data]);
 
-  
-  
   const checkCorrect = () =>
     name.toLowerCase().trim() === data.name.toLowerCase().trim() &&
     jurusan.toLowerCase().trim() === data.jurusan.toLowerCase().trim() &&
@@ -56,7 +62,6 @@ const TraineeCard = ({data, onSubmit, onAnswerShown}: TraineeCardProps) => {
       onAnswerShown();
   }
 
-  
   return (
     
     <div className="main-container">
@@ -64,8 +69,8 @@ const TraineeCard = ({data, onSubmit, onAnswerShown}: TraineeCardProps) => {
       <h2>Who's that trainee?</h2>
       <img src={data.img} alt={data.name} />
 
-      <input value={name} placeholder="Input Name"  onChange={(e) => setName(e.target.value)} />  
-      <select value={jurusan} className='jurusan' onChange={(e) => setjurusan(e.target.value)}>
+      <input value={name} placeholder="Input Name"  onChange={(e) => setName(e.target.value)} disabled={isAlreadyFinished} />  
+      <select value={jurusan} className='jurusan' onChange={(e) => setjurusan(e.target.value)} disabled={isAlreadyFinished}>
         <option value="Computer Science">Computer Science</option>
         <option value="Artificial Intelligence">Artificial Intelligence</option>
         <option value="Cyber Security">Cyber Security</option>
@@ -76,16 +81,20 @@ const TraineeCard = ({data, onSubmit, onAnswerShown}: TraineeCardProps) => {
 
       <div className="mix">
 
-        <select value={angkatan} className="angkatan" onChange={(e) => setangkatan(e.target.value)}>
+        <select value={angkatan} className="angkatan" onChange={(e) => setangkatan(e.target.value)} disabled={isAlreadyFinished}>
             <option value="B29" >B29</option>
             <option value="B28">B28</option>
         </select>
 
-        <input type="text" className="tnumber" value={traineenum} onChange={(e) => settraineenum(e.target.value)} placeholder="TXXX" />
+        <input type="text" className="tnumber" value={traineenum} onChange={(e) => settraineenum(e.target.value)} placeholder="TXXX" disabled={isAlreadyFinished} />
       </div>
-      
-      <button className='submit-btn' onClick={handleSubmit}>Submit</button>
-      <button className='' onClick={handleShowAnswer}>Show Answer</button>
+
+      {!isAlreadyFinished && (
+        <div>
+          <button className='submit-btn' onClick={handleSubmit}>Submit</button>
+          <button className='' onClick={handleShowAnswer}>Show Answer</button>
+        </div>
+      )}
 
       {popup && (
         <div className = "SALAH">

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./flashcard.css"
 
 interface TrainerData {
@@ -12,13 +12,22 @@ interface TrainerCardProps {
   data: TrainerData;
   onSubmit: (correct: boolean)=>void;
   onAnswerShown: ()=>void;
+  isAlreadyFinished: boolean;
 }
 
-const TrainerCard = ({data, onSubmit, onAnswerShown}: TrainerCardProps) => {
+const TrainerCard = ({data, onSubmit, onAnswerShown, isAlreadyFinished}: TrainerCardProps) => {
   const [name, setName] = useState("");
   const [position, setPosition] = useState("Junior Laboratory Assistant");
   const [initial, setInitial] = useState("");
   const [popup, setPopup] = useState(false);
+
+  useEffect(() => {
+    if (isAlreadyFinished) {
+      setName(data.name);
+      setPosition(data.position);
+      setInitial(data.initial);
+    }
+  }, [isAlreadyFinished, data]);
 
   const checkCorrect = () =>
   name.toLowerCase().trim() === data.name.toLowerCase().trim() &&
@@ -51,9 +60,9 @@ const TrainerCard = ({data, onSubmit, onAnswerShown}: TrainerCardProps) => {
       <h2>Who's that trainer?</h2>
       <img src={data.img} alt={data.name} />
 
-      <input value={name} placeholder="Input Name"  onChange={(e) => setName(e.target.value)} />
+      <input value={name} placeholder="Input Name"  onChange={(e) => setName(e.target.value)} disabled={isAlreadyFinished} />
       
-      <select name="" id="" value={position} className="position" onChange={(e) => setPosition(e.target.value)}>
+      <select name="" id="" value={position} className="position" onChange={(e) => setPosition(e.target.value)} disabled={isAlreadyFinished}>
         <option value="Junior Laboratory Assistant">Junior Laboratory Assistant</option>
         <option value="Laboratory Assistant">Laboratory Assistant</option>
         <option value="Network Administrator and Technical Support Staff">Network Administrator and Technical Support Staff</option>
@@ -64,10 +73,14 @@ const TrainerCard = ({data, onSubmit, onAnswerShown}: TrainerCardProps) => {
         <option value="Database Administration Staff">Database Administrator Staff</option>
         <option value="Network Administrator and Technical Support Officer">Network Administrator and Technical Support Officer</option>
       </select>
-      <input value={initial} placeholder="Input Initial and Generation"  onChange={(e) => setInitial(e.target.value)} />
+      <input value={initial} placeholder="Input Initial and Generation"  onChange={(e) => setInitial(e.target.value)}  disabled={isAlreadyFinished}/>
       
-      <button className='submit-btn' onClick={handleSubmit}>Submit</button>
-      <button className='btn' onClick={handleShowAnswer}>ShowAnswer</button>
+      {!isAlreadyFinished && (
+        <div>
+          <button className='submit-btn' onClick={handleSubmit}>Submit</button>
+          <button className='' onClick={handleShowAnswer}>Show Answer</button>
+        </div>
+      )}
       
       {popup && (
         <div className = "SALAH">

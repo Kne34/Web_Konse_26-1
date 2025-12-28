@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import TrainerCard from '../FlashCards/flashcard'
 import trainerJson from '../assets/trainerData.json'
 import './FlashMenu.css'
@@ -41,65 +41,84 @@ function getGeneration(idx: number) {
     }
 }
 
+const shuffleArray = (array: any[]) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i+1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
 
-const finishedCards: any = [];
+    return shuffled;
+};
+
+function toOneDArray() {
+    const result: any[] = [];
+    for (let genIdx = 0; genIdx <= 9; genIdx++) {
+        const gen = getGeneration(genIdx);
+        if (gen && trainerJson[gen]) {
+            result.push(...(trainerJson as any) [gen]);
+        }
+    }
+    return result;
+}
+
 function FlashMenu(){
     const [showModalExit, setShowModalExit] = useState(false);
     const [idx, setIdx] = useState(0);
-    const [genIdx, setGenIdx] = useState(0);
     const [points, setPoints] = useState(0);
+    const [finishedCards, setFinishedCards] = useState<number[]>([]);
+    const [ShuffledData, setShuffledData] = useState<any[]>([]);
 
-    const currentKey = `${genIdx}-${idx}`;
+    useEffect(() => {
+        const AllTrainers = toOneDArray();
+        setShuffledData(shuffleArray(AllTrainers));
+    }, []);
 
+    const currentKey = idx;
+
+    if (ShuffledData.length === 0) return;
+    
     const onSubmitHandler  = (correct: boolean) => {
         if (!correct)
             return;
 
-        if (markCardFinished())
-            setPoints(points + 1)
+        if (!finishedCards.includes(idx)){
+            setPoints(prev => prev + 1);
+            setFinishedCards(prev => [...prev, idx]);
+        }
 
         onNextHandler();
     }
     
     function markCardFinished() {
-        const finished = finishedCards.includes(`${genIdx},${idx}`);
+        const finished = finishedCards.includes(currentKey);
         if (finished)
             return false;
-        finishedCards.push(`${genIdx},${idx}`);
+        setFinishedCards([...finishedCards, currentKey]);
         return true;
     }
 
     const onNextHandler  = () => {
-        if (idx + 1 < trainerJson[getGeneration(genIdx)!].length)
+        if (idx + 1 < ShuffledData.length)
             setIdx(idx + 1);
         else {
-            if (getGeneration(genIdx+1)) {
-                setGenIdx(genIdx+1);
-                setIdx(0);
-            } else {
-                setShowModalExit(true)
-            }
+            setShowModalExit(true)
         }
     }
         
     const onPrevHandler = () => {
         if (idx - 1 >= 0)
             setIdx(idx-1);
-        else {  
-            if (getGeneration(genIdx-1)) {
-                setGenIdx(genIdx-1);
-                setIdx(trainerJson[getGeneration(genIdx-1)!].length - 1);
-            } else {
-                setShowModalExit(true)
-            }
-        }
     }
+
     const restart = () => {
         setIdx(0);
-        setGenIdx(0);
         setPoints(0);
-        finishedCards.length = 0;
+        setFinishedCards([]);
         setShowModalExit(false)
+        const AllTrainers = toOneDArray();
+        setShuffledData(shuffleArray(AllTrainers));
+
     }
 
     const handleCloseModal = () => {
@@ -114,9 +133,10 @@ function FlashMenu(){
                 </button>
             <h2>Points: <span className='points'>{points}</span> </h2>
             <TrainerCard key= {currentKey} 
-                        data={trainerJson[getGeneration(genIdx)!][idx]} 
+                        data={ShuffledData[idx]} 
                         onSubmit={onSubmitHandler} 
-                        onAnswerShown={markCardFinished}/>
+                        onAnswerShown={markCardFinished}
+                        isAlreadyFinished={finishedCards.includes(currentKey)}/>
             <div className='buttonnextprev'>
                 <button className='nextprev-btn' onClick={onPrevHandler}>Prev</button>
                 <button className="nextprev-btn" onClick={onNextHandler}>Next</button>
