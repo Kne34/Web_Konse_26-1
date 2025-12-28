@@ -61,6 +61,8 @@ const TrainerCard = ({data, onSubmit, onAnswerShown}: TrainerCardProps) => {
         <option value="Subject Coordinator Staff">Subject Coordinator Staff</option>
         <option value="Research and Development Staff">Research and Development Staff</option>
         <option value="Lecturer Specialist">Lecturer Specialist</option>
+        <option value="Database Administration Staff">Database Administrator Staff</option>
+        <option value="Network Administrator and Technical Support Officer">Network Administrator and Technical Support Officer</option>
       </select>
       <input value={initial} placeholder="Input Initial and Generation"  onChange={(e) => setInitial(e.target.value)} />
       

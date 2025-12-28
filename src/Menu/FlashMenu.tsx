@@ -2,6 +2,8 @@ import { useState } from 'react'
 import TrainerCard from '../FlashCards/flashcard'
 import trainerJson from '../assets/trainerData.json'
 import './FlashMenu.css'
+import ExitModal from './../components/ExitModal';
+import { Link } from 'react-router';
 
 function getGeneration(idx: number) {
     if (idx === 0){
@@ -42,9 +44,12 @@ function getGeneration(idx: number) {
 
 const finishedCards: any = [];
 function FlashMenu(){
+    const [showModalExit, setShowModalExit] = useState(false);
     const [idx, setIdx] = useState(0);
     const [genIdx, setGenIdx] = useState(0);
     const [points, setPoints] = useState(0);
+
+    const currentKey = `${genIdx}-${idx}`;
 
     const onSubmitHandler  = (correct: boolean) => {
         if (!correct)
@@ -55,6 +60,7 @@ function FlashMenu(){
 
         onNextHandler();
     }
+    
     function markCardFinished() {
         const finished = finishedCards.includes(`${genIdx},${idx}`);
         if (finished)
@@ -71,7 +77,7 @@ function FlashMenu(){
                 setGenIdx(genIdx+1);
                 setIdx(0);
             } else {
-                alert("Selesai!!!");
+                setShowModalExit(true)
             }
         }
     }
@@ -84,22 +90,45 @@ function FlashMenu(){
                 setGenIdx(genIdx-1);
                 setIdx(trainerJson[getGeneration(genIdx-1)!].length - 1);
             } else {
-                alert("Awal sekali");
+                setShowModalExit(true)
             }
         }
+    }
+    const restart = () => {
+        setIdx(0);
+        setGenIdx(0);
+        setPoints(0);
+        finishedCards.length = 0;
+        setShowModalExit(false)
+    }
+
+    const handleCloseModal = () => {
+        setShowModalExit(false)
     }
     
     return (
         <div className="flashmenu-container">
+            <Link to="/"><button className='backtomenu'>Back</button></Link>
+            <button onClick={restart} className='restart'>
+                    Restart
+                </button>
             <h2>Points: <span className='points'>{points}</span> </h2>
-            <TrainerCard key={`${genIdx}-${idx}`} 
-                         data={trainerJson[getGeneration(genIdx)!][idx]} 
-                         onSubmit={onSubmitHandler} 
-                         onAnswerShown={markCardFinished}/>
+            <TrainerCard key= {currentKey} 
+                        data={trainerJson[getGeneration(genIdx)!][idx]} 
+                        onSubmit={onSubmitHandler} 
+                        onAnswerShown={markCardFinished}/>
             <div className='buttonnextprev'>
                 <button className='nextprev-btn' onClick={onPrevHandler}>Prev</button>
                 <button className="nextprev-btn" onClick={onNextHandler}>Next</button>
             </div>
+
+            {showModalExit && (
+                <ExitModal 
+                points = {points}
+                onRestart = {restart}
+                onClose = {handleCloseModal}
+                />
+            )}
         </div>
     )
 }

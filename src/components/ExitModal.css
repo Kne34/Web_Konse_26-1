@@ -1,0 +1,31 @@
+.exit-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.exit-modal {
+    background: linear-gradient(135deg, #66ea7a 0%, #4ba251 100%);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+
+}
+
+.modal-content {
+    text-align: center;
+    color: white;
+}
+
+.modal-btn {
+    margin: 10px;
+}

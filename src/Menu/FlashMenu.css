@@ -4,7 +4,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 2px;
 }
 .nextprev-btn{
     margin-top: 20px;
@@ -27,3 +27,27 @@
     color: white;
     opacity: 1;
 }
+
+.backtomenu{
+    position: fixed;
+    top: 30px;
+    left: 100px;
+}
+
+.restart{
+    position: fixed;
+    top: 30px;
+    right: 100px;
+}
+
+/* .backBut{
+    background-color:rgb(107, 80, 13);
+    color: white;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+.backBut:hover{
+    background-color: darkgoldenrod;
+    color: white;
+} */

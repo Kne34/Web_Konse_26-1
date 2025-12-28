@@ -20,7 +20,11 @@ const TraineeCard = ({data, onSubmit, onAnswerShown}: TraineeCardProps) => {
   const [jurusan, setjurusan] = useState("Computer Science");
   const [angkatan, setangkatan] = useState("B29");
   const [traineenum, settraineenum] = useState("");
-  const [popup, setPopup] = useState(false);
+  const [popup, setPopup] = useState(false);  // utk tampil "WRONG ANSWER"
+
+  
+
+  
   
   const checkCorrect = () =>
     name.toLowerCase().trim() === data.name.toLowerCase().trim() &&

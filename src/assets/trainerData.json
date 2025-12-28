@@ -15,7 +15,7 @@
         {
             "name": "Jordan Grant",
             "img": "/OG25-2.png",
-            "initial": "OG25-1",
+            "initial": "OG25-2",
             "position": "Junior Laboratory Assistant"
         },
         {
@@ -104,7 +104,7 @@
             "name": "Aldric Tan",
             "img": "/AC24-2.png",
             "initial": "AC24-2",
-            "position": ""
+            "position": "Subject Coordinator Staff"
         },
         {
             "name": "Helena Aurelia Sanjaya",
@@ -119,7 +119,7 @@
             "position": "Laboratory Assistant"
         },
         {
-            "name": "Bertrand Geraldo Tjahy adi",
+            "name": "Bertrand Geraldo Tjahyadi",
             "img": "/BT24-2.png",
             "initial": "BT24-2",
             "position": "Laboratory Assistant"
@@ -152,13 +152,13 @@
             "name": "Steven Hardyanto",
             "img": "/HO24-2.png",
             "initial": "HO24-2",
-            "position": ""
+            "position": "Laboratory Assistant"
         },
         {
             "name": "Kevin Nathanael Hendarto",
             "img": "/KH24-2.png",
             "initial": "KH24-2",
-            "position": ""
+            "position": "Laboratory Assistant"
         },
         {
             "name": "Tommy Awada",
@@ -179,7 +179,7 @@
             "position": "Research and Development Staff"
         },
         {
-            "name": "Agnes Faustine Ilona Soejanto",
+            "name": "Agnes Faustine Illona Soejanto",
             "img": "/NS24-2.png",
             "initial": "NS24-2",
             "position": "Laboratory Assistant"
@@ -212,25 +212,25 @@
             "name": "Vincentius Devin Agung Oktara",
             "img": "/VD24-2.png",
             "initial": "VD24-2",
-            "position": ""
+            "position": "Laboratory Assistant"
         },
         {
             "name": "Veron Fujimori",
             "img": "/VM24-2.png",
             "initial": "VM24-2",
-            "position": ""
+            "position": "Subject Coordinator Staff"
         },
         {
             "name": "William Sebastian Liman",
             "img": "/WS24-2.png",
             "initial": "WS24-2",
-            "position": ""
+            "position": "Laboratory Assistant"
         },
         {
             "name": "Wilsen Wiratan",
             "img": "/WW24-2.png",
             "initial": "WW24-2",
-            "position": ""
+            "position": "Laboratory Assistant"
         },
         {
             "name": "Yudhistira",
@@ -256,7 +256,7 @@
             "name": "Gilbert Jefferson",
             "img": "/GT24-1.png",
             "initial": "GT24-1",
-            "position": ""
+            "position": "Subject Coordinator Staff"
         },
         {
             "name": "Kenneth Andrew",
@@ -304,7 +304,7 @@
             "name": "Michael Stefano Irawadi",
             "img": "/SF24-1.png",
             "initial": "SF24-1",
-            "position": ""
+            "position": "Laboratory Assistant"
         },
         {
             "name": "Steven Liementha",
@@ -340,7 +340,7 @@
             "name": "Inner Journey Tazkie Ciputra Tangguh",
             "img": "/ZK24-1.png",
             "initial": "ZK24-1",
-            "position": "Database Administrator Staff"
+            "position": "Database Administration Staff"
         }
     ],
     "23-2": [
@@ -354,10 +354,10 @@
             "name": "Adrian Yu",
             "img": "/AY23-2.png",
             "initial": "AY23-2",
-            "position": "Database Administrator Staff"
+            "position": "Database Administration Staff"
         },
         {
-            "name": "Axel Kurniawan",
+            "name": "Axel Kurniawan, S. Kom.",
             "img": "/XK23-2.png",
             "initial": "XK23-2",
             "position": "Laboratory Assistant"
@@ -372,7 +372,7 @@
             "name": "William Christian",
             "img": "/LM23-2.png",
             "initial": "LM23-2",
-            "position": "Network Administrator and Technical Support Staff"
+            "position": "Research and Development Staff"
         },
         {
             "name": "Jason Daniel Tanuarta S. Kom.",
@@ -411,7 +411,7 @@
             "position": "Laboratory Assistant"
         },
         {
-            "name": "Hendra Hendarto",
+            "name": "Hendra Hartanto",
             "img": "/HH23-2.png",
             "initial": "HH23-2",
             "position": "Database Administration Staff"
@@ -434,7 +434,7 @@
             "name": "Nicholas Irvin Suhendi",
             "img": "/IR23-1.png",
             "initial": "IR23-1",
-            "position": "Network Administrator and Technical Support Staff"
+            "position": "Database Administration Staff"
         },
         {
             "name": "Felix Gunawan Hendy",
@@ -443,7 +443,7 @@
             "position": "Network Administrator and Technical Support Staff"
         },
         {
-            "name": "Jovita Waisakhi ",
+            "name": "Jovita Waisakhi",
             "img": "/VI23-1.png",
             "initial": "VI23-1",
             "position": "Subject Coordinator Staff"
@@ -457,7 +457,7 @@
             "position": "Network Administrator and Technical Support Staff"
         },
         {
-            "name": "Valentino Setiawan, S.Kom.",
+            "name": "Valentino Setiawan, S. Kom.",
             "img": "/VS22-2.png",
             "initial": "VS22-2",
             "position": "Network Administrator and Technical Support Staff"
@@ -466,7 +466,7 @@
             "name": "Marchel Hermanliansyah, S. Kom.",
             "img": "/MC22-2.png",
             "initial": "MC22-2",
-            "position": "Network Administrator and Technical Event Officer"
+            "position": "Network Administrator and Technical Support Officer"
         },
         {
             "name": "Jason Ananda Cindra, S. Kom.",
@@ -478,7 +478,7 @@
             "name": "Jevon Danaristo",
             "img": "/JO22-2.png",
             "initial": "JO22-2",
-            "position": "?"
+            "position": "Network Administrator and Technical Support Staff"
         }
     ],
     "22-1": [
@@ -505,9 +505,9 @@
     ],
     "19-2": [
         {
-            "name": "Louis Choules S.Kom.",
+            "name": "Louis Choules, S. Kom.",
             "img": "/LH19-2.png",
-            "initial": "LH19-1",
+            "initial": "LH19-2",
             "position": "Lecturer Specialist"
         }
     ]
