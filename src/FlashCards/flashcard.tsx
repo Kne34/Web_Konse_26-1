@@ -69,7 +69,6 @@ const TrainerCard = ({data, onSubmit, onAnswerShown, isAlreadyFinished}: Trainer
         <option value="Operations Management Officer" className="position">Operations Management Officer</option>
         <option value="Subject Coordinator Staff" className="position">Subject Coordinator Staff</option>
         <option value="Research and Development Staff" className="position">Research and Development Staff</option>
-        <option value="Lecturer Specialist" className="position">Lecturer Specialist</option>
         <option value="Database Administration Staff" className="position">Database Administrator Staff</option>
         <option value="Network Administrator and Technical Support Officer" className="position">Network Administrator and Technical Support Officer</option>
       </select>
