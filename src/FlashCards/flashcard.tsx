@@ -63,15 +63,15 @@ const TrainerCard = ({data, onSubmit, onAnswerShown, isAlreadyFinished}: Trainer
       <input value={name} placeholder="Input Name"  onChange={(e) => setName(e.target.value)} disabled={isAlreadyFinished} />
       
       <select name="" id="" value={position} className="position" onChange={(e) => setPosition(e.target.value)} disabled={isAlreadyFinished}>
-        <option value="Junior Laboratory Assistant">Junior Laboratory Assistant</option>
-        <option value="Laboratory Assistant">Laboratory Assistant</option>
-        <option value="Network Administrator and Technical Support Staff">Network Administrator and Technical Support Staff</option>
-        <option value="Operations Management Officer">Operations Management Officer</option>
-        <option value="Subject Coordinator Staff">Subject Coordinator Staff</option>
-        <option value="Research and Development Staff">Research and Development Staff</option>
-        <option value="Lecturer Specialist">Lecturer Specialist</option>
-        <option value="Database Administration Staff">Database Administrator Staff</option>
-        <option value="Network Administrator and Technical Support Officer">Network Administrator and Technical Support Officer</option>
+        <option value="Junior Laboratory Assistant" className="position">Junior Laboratory Assistant</option>
+        <option value="Laboratory Assistant" className="position">Laboratory Assistant</option>
+        <option value="Network Administrator and Technical Support Staff" className="position">Network Administrator and Technical Support Staff</option>
+        <option value="Operations Management Officer" className="position">Operations Management Officer</option>
+        <option value="Subject Coordinator Staff" className="position">Subject Coordinator Staff</option>
+        <option value="Research and Development Staff" className="position">Research and Development Staff</option>
+        <option value="Lecturer Specialist" className="position">Lecturer Specialist</option>
+        <option value="Database Administration Staff" className="position">Database Administrator Staff</option>
+        <option value="Network Administrator and Technical Support Officer" className="position">Network Administrator and Technical Support Officer</option>
       </select>
       <input value={initial} placeholder="Input Initial and Generation"  onChange={(e) => setInitial(e.target.value)}  disabled={isAlreadyFinished}/>
       
